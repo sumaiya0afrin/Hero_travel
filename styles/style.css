@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    font-family: "Mulish", sans-serif;
+}
+/* common styles  */
+.light{
+    color: white;
+}
+.btn_primary{
+    width: 175px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    padding: 0 0.5rem;
+}
+/* header start  */
+header, main>section{
+    width: 90%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+   align-items: center;
+}
+.logo_text{
+    font-size: 2.06rem;
+    font-weight: 800;
+}
+.logo_text span{
+    color: rgb(255, 84, 0);
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-right: 44px;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(66, 66, 71);
+    font-size: 1.12rem;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.menu li:last-child{
+    margin-right: 0;
+}
+/* header ends  */
+
+/* banner starts */
+.banner{
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url(../images/Group13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+.banner_container{
+    padding: 106px 185px;
+    text-align: center;
+}
+.banner_text{
+    font-size: 3.75rem;
+    font-weight: 800;
+}
+.banner_desc{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0 0 48px;
+}
+form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px 0;
+    backdrop-filter: blur(4px);
+}
+input, select{
+    width: 175px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 0 0.5rem;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.search{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* banner ends */
