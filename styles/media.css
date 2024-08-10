@@ -5,18 +5,28 @@
     .container{
         text-align: center;
     }
+    .common_heading{
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    .common_title{
+        font-size: 1.12rem;
+    }
+    .logo_text {
+        font-size: 1.37rem;
+    }
     .menu ul{
         display: none;
     }
     .ham_burger{
         display: block;
-        font-size: 24px;
+        font-size: 20px;
     }
     .banner_container {
-        padding: 106px 50px;
+        padding: 7px 16px 25px;
     }
     .banner_text {
-        font-size: 1.60rem;
+        font-size: 1.5rem;
     }
     input, select{
         margin-right: 0;
@@ -34,6 +44,13 @@
         justify-content: start;
         gap: 24px;
     }
+    .destination_images img {
+        height: 150px;
+    }
+    .country {
+        font-size: 1rem;
+        transform: translate(-50%, -110%);
+    }
     .row_1,
     .row_2,
     .row_3{
@@ -46,11 +63,11 @@
         width: 100%;
     }
     .newsletter_offer {
-        width: 250px;
-        margin-left: 96px;
-        margin-top: -152px;
-        margin-bottom: 272px;
-        transform: rotate(-28.63deg);
+        width: 178px;
+        margin-left: 87px;
+        margin-top: -139px;
+        margin-bottom: 243px;
+        transform: rotate(-36.63deg);
     }
     .offer_title {
         font-size: 1.25rem;
@@ -59,7 +76,7 @@
         font-size: 1rem;
     }
 footer {
-    padding: 60px 50px;
+    padding: 60px 20px;
 }
     
 }
