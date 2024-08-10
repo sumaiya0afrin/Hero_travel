@@ -4,8 +4,20 @@ body{
     font-family: "Mulish", sans-serif;
 }
 /* common styles  */
+.section_margin, footer{
+    margin: 100px auto 0;
+}
 .light{
     color: white;
+}
+.grey{
+    color: rgb(90, 90, 93);
+    font-weight: 400;
+    line-height: 26px;
+}
+.light_grey{
+    color: rgba(19, 19, 24, 0.7);
+    line-height: 26px;
 }
 .btn_primary{
     width: 175px;
@@ -14,6 +26,22 @@ body{
     background: rgb(255, 84, 0);
     border: none;
     padding: 0 0.5rem;
+}
+.common_heading{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.common_desc{
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+.common_title{
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    margin: 32px 0 16px;
 }
 /* header start  */
 header, main>section{
@@ -53,6 +81,9 @@ nav{
 .menu li:last-child{
     margin-right: 0;
 }
+.ham_burger{
+    display: none;
+}
 /* header ends  */
 
 /* banner starts */
@@ -81,7 +112,6 @@ form{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.3);
     padding: 10px 0;
-    backdrop-filter: blur(4px);
 }
 input, select{
     width: 175px;
@@ -97,5 +127,176 @@ input, select{
     font-size: 1rem;
     font-weight: 700;
 }
-
 /* banner ends */
+/* popular start  */
+.tours_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 118px;
+}
+.tour_desc{
+    margin-bottom: 24px;
+}
+.tour_desc2{
+    margin: 24px 0 32px;
+}
+.tour_list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+/* popular end */
+/* destination starts */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.destination_images img{
+    width: 100%;
+    height: 300px;
+    filter: brightness(70%);
+}
+.country_card{
+    position: relative;
+}
+.country{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+}
+.row_1, 
+.row_2,
+.row_3{
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+.row_1{
+    grid-template-columns: 1fr 1fr;
+}
+.row_2{
+    grid-template-columns: 0.8fr 1.5fr 0.7fr;
+}
+.row_3{
+    grid-template-columns: 0.75fr 1.25fr;
+}
+/* destination ends*/
+/* choose starts  */
+.card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.card_2{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.card_container{
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px 32px 32px;
+}
+.card_color{
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+}
+/* choose ends */
+/* place starts  */
+.bold{
+    font-weight: 700;
+}
+.video iframe{
+    border-radius: 16px;
+}
+/* place ends  */
+/* newsletter starts */
+.newsletter_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.newsletter_content{
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+    padding: 8px 40px 40px;
+}
+hr{
+    width: 100%;
+    border: 1px solid rgba(19, 19, 24, 0.1);
+}
+.newsletter_input{
+    width: 96%;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+    margin-right: 0;
+}
+.newsletter_input::placeholder{
+    color: rgba(19, 19, 24, 0.3);
+}
+.Subscribe{
+    width: 100%;
+}
+.newsletter_offer{
+    width: 324px;
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    left: 947px;
+    top: 4293px; */
+    margin-left: 345px;
+    margin-top: -192px;
+    transform: rotate(-31.63deg);
+}
+.offer_subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 20px;
+}
+.offer_title{
+    font-size: 32px;
+    font-weight: 800;
+    margin: 5px 0 20px;
+}
+/* newsletter ends */
+/* footer starts  */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 60px 284px;
+}
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_subtitle{
+    margin: 0px 0 32px;
+    text-align: center;
+}
+.social_icons{
+    margin-bottom: 40px;
+}
+.social_icons a{
+    margin-right:32px ;
+    font-size: 1.43rem;
+}
+.social_icons a:last-child{
+    margin-right:0 ;
+}
+/* footer ends */
