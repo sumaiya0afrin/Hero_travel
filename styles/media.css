@@ -68,7 +68,7 @@
         padding: 20px 51px 30px 21px;
     }
     .discount_container{
-        padding: 75px 284px 17px 12px;
+        padding: 75px 26px 17px 44px;
     }
     .discount_content{
         gap: 0;
@@ -82,10 +82,10 @@
     }
     .newsletter_offer {
         width: 178px;
-        margin-left: 87px;
-        margin-top: -139px;
-        margin-bottom: 243px;
-        transform: rotate(-36.63deg);
+        margin-left: 168px;
+        margin-top: -138px;
+        margin-bottom: 215px;
+        transform: rotate(-35.63deg);
     }
     .offer_title {
         font-size: 1.25rem;
