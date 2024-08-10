@@ -56,11 +56,29 @@
     .row_3{
         grid-template-columns: 1fr;
     }
-    .card{
+    .card,
+    .display_grid{
         grid-template-columns: repeat(1, 1fr);
     }
     .card_2{
         width: 100%;
+    }
+    .deals{
+        width: 195px;
+        padding: 20px 51px 30px 21px;
+    }
+    .discount_container{
+        padding: 75px 284px 17px 12px;
+    }
+    .discount_content{
+        gap: 0;
+    }
+    .large_device{
+        display: none;
+    }
+    .small_device{
+        display: block;
+        font-size: 0.8rem;
     }
     .newsletter_offer {
         width: 178px;
@@ -72,7 +90,8 @@
     .offer_title {
         font-size: 1.25rem;
     }
-    .offer_subtitle {
+    .offer_subtitle,
+    .price {
         font-size: 1rem;
     }
 footer {

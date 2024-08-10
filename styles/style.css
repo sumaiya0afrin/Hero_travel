@@ -4,6 +4,13 @@ body{
     font-family: "Mulish", sans-serif;
 }
 /* common styles  */
+.display_grid{
+    justify-content: start;
+    align-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .section_margin, footer{
     margin: 100px auto 0;
 }
@@ -210,6 +217,50 @@ input, select{
     background: rgba(41, 206, 246, 0.05);
 }
 /* choose ends */
+/* discount starts  */
+.discount_container{
+    background-image: url(../images/Group39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 56px 56px 55px 497px;
+    margin-bottom: 24px;
+}
+.discount_container2{
+    background-image: url(../images/Group40.png);
+    padding: 56px 497px 55px 56px;
+    margin-bottom: 24px;
+}
+.deals{
+    width: 516px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px 77px 50px 50px;
+}
+.deals h4{
+    margin-top: 7px;
+}
+.small_device{
+    display: none;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.discount_content{
+    gap: 24px;
+}
+.price{
+    color: rgb(255, 84, 0);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* discount  ends */
 /* place starts  */
 .bold{
     font-weight: 700;
@@ -254,9 +305,6 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* position: absolute;
-    left: 947px;
-    top: 4293px; */
     margin-left: 345px;
     margin-top: -192px;
     transform: rotate(-31.63deg);
