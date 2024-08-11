@@ -64,11 +64,11 @@
         width: 100%;
     }
     .deals{
-        width: 195px;
-        padding: 20px 51px 30px 21px;
+        width: 176px;
+        padding: 20px 21px 30px 21px;
     }
     .discount_container{
-        padding: 75px 26px 17px 44px;
+        padding: 75px 23px 17px 26px;
     }
     .discount_content{
         gap: 0;
@@ -80,12 +80,15 @@
         display: block;
         font-size: 0.8rem;
     }
+    .info p{
+        margin: 7px 0;
+    }
     .newsletter_offer {
-        width: 178px;
-        margin-left: 168px;
+        width: 166px;
+        margin-left: 101px;
         margin-top: -138px;
-        margin-bottom: 215px;
-        transform: rotate(-35.63deg);
+        margin-bottom: 173px;
+        transform: rotate(-37.63deg);
     }
     .offer_title {
         font-size: 1.25rem;
