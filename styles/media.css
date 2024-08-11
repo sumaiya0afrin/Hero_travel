@@ -1,3 +1,4 @@
+/* small devices screen  */
 @media screen and (max-width: 576px) {
     .section_margin, footer {
         margin: 40px auto 0;
@@ -68,7 +69,7 @@
         padding: 20px 21px 30px 21px;
     }
     .discount_container{
-        padding: 75px 23px 17px 26px;
+        padding: 75px 23px 17px 52px;
     }
     .discount_content{
         gap: 0;
@@ -100,5 +101,202 @@
 footer {
     padding: 60px 20px;
 }
-    
+}
+
+/* medium device screen  */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .section_margin, footer {
+        margin: 40px auto 0;
+    }
+    .container{
+        text-align: center;
+    }
+    .common_heading{
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    .common_title{
+        font-size: 1.12rem;
+    }
+    .logo_text {
+        font-size: 1.37rem;
+    }
+    .menu ul{
+        display: none;
+    }
+    .ham_burger{
+        display: block;
+        font-size: 20px;
+    }
+    .banner_container {
+        padding: 7px 16px 25px;
+    }
+    .banner_text {
+        font-size: 1.5rem;
+    }
+    input, select{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .tours_image img, 
+    .newsletter_image img{
+        width: 100%;
+        height: 100%;
+    }
+    .tours_container,
+    .newsletter_container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: start;
+        gap: 24px;
+    }
+    .destination_images img {
+        height: 150px;
+    }
+    .country {
+        font-size: 1rem;
+        transform: translate(-50%, -110%);
+    }
+    .card,
+    .display_grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card_2{
+        width: 100%;
+    }
+    .deals{
+        width: 176px;
+        padding: 20px 21px 30px 21px;
+    }
+    .discount_container{
+        padding: 75px 23px 17px 52px;
+    }
+    .discount_content{
+        gap: 0;
+    }
+    .large_device{
+        display: none;
+    }
+    .small_device{
+        display: block;
+        font-size: 0.8rem;
+    }
+    .info p{
+        margin: 7px 0;
+    }
+    .newsletter_offer {
+        width: 266px;
+        margin-left: 406px;
+        margin-top: -200px;
+        margin-bottom: 185px;
+        transform: rotate(-41.63deg);
+    }
+    .price {
+        font-size: 1rem;
+    }
+footer {
+    padding: 60px 20px;
+}
+}
+
+/* laptop device screen  */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .section_margin, footer {
+        margin: 80px auto 0;
+    }
+    .container{
+        text-align: center;
+    }
+    .common_heading{
+        margin-bottom: 1rem;
+    }
+    .banner_container {
+        padding: 7px 16px 25px;
+    }
+    .banner_text {
+        font-size: 3rem;
+    }
+    input, select{
+        margin-right: 15px;
+    }
+    .tours_image img, 
+    .newsletter_image img{
+        width: 100%;
+        height: 100%;
+    }
+    .place_container{
+        gap: 25px;
+    }
+    .newsletter_container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: start;
+        gap: 24px;
+    }
+    .offer_title {
+        margin: 5px 0 30px;
+    }
+    .offer_subtitle {
+        margin-top: 27px;
+    }
+    .country {
+        font-size: 1rem;
+        transform: translate(-50%, -110%);
+    }
+    .card,
+    .place_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card_2{
+        width: 100%;
+    }
+    .deals{
+        padding: 20px 21px 30px 21px;
+    }
+    .discount_container{
+        padding: 75px 23px 17px 52px;
+    }
+    .discount_content{
+        gap: 0;
+    }
+    .large_device{
+        display: none;
+    }
+    .small_device{
+        display: block;
+        font-size: 0.8rem;
+    }
+    .info p{
+        margin: 7px 0;
+    }
+    .newsletter_offer {
+        width: 324px;
+        margin-left: 581px;
+        margin-top: -229px;
+        margin-bottom: 185px;
+        transform: rotate(-41.63deg);
+    }
+    .price {
+        font-size: 1rem;
+    }
+footer {
+    padding: 60px 20px;
+}
+}
+
+/* extra large device screen  */
+@media screen and (min-width: 2560px){
+    .banner_container {
+        padding: 106px 702px;
+    }
+    .newsletter_container,
+    .tours_container{
+        gap: 0;
+    }
+    .destination_images img {
+        height: 400px;
+    }
+    .tours_image,
+    .video,
+    .newsletter_image{
+        justify-self: right;
+    }
 }
